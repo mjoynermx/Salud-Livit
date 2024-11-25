@@ -219,14 +219,14 @@ margin-left: 10%;
 @media (max-width: 575.98px){
   .copyContainer{
     width: max-content;
-    margin-right: 5px;
+    margin-left: 10%;
   }
 }
 
 @media (max-width: 767.98px){
   .copyContainer{
     width: max-content;
-    
+    margin-left: 10%;
   }
 }
 
