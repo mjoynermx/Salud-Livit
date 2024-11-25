@@ -215,5 +215,15 @@ margin-left: 45px;
   padding-top: 6px;
 }
 
+@media (min-width: 576px){
+  .myHeading{
+    font-size: 25px;
+  }
+}
 
+@media (min-width: 992px){
+  .myHeading{
+    font-size: 25px;
+  }
+}
 
