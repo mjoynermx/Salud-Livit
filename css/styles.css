@@ -1,0 +1,219 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body{
+ 
+}
+
+.mycontainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
+  background: rgb(252,254,255);
+  background: -moz-radial-gradient(circle, rgba(252,254,255,1) 18%, rgba(245,245,245,1) 52%, rgba(5,195,187,1) 97%);
+  background: -webkit-radial-gradient(circle, rgba(252,254,255,1) 18%, rgba(245,245,245,1) 52%, rgba(5,195,187,1) 97%);
+  background: radial-gradient(circle, rgba(252,254,255,1) 18%, rgba(245,245,245,1) 52%, rgba(5,195,187,1) 97%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcfeff",endColorstr="#05c3bb",GradientType=1);
+  width: 100vw;
+}
+
+.mycard{
+  background-color: #FAFAFA;
+  color: #2e2e2e;
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 30px 30px;
+  filter: drop-shadow(0px 5px 5px #c4c4c4);
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animate-delay: 0.9s;
+}
+
+.mycard .image{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.mycard .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mycard h2{
+  font-size: 26px;
+  font-weight: 700;
+  margin: 15px 5px;
+}
+
+.mycard h4{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.mycard p{
+  margin-left: 5px;
+  margin-top: 3px;
+  font-size: 12px;
+  color: #05C3BB;
+}
+
+.bannerContainer{
+  /* height: 450px; */
+  margin-top: 50px;
+  
+}
+
+.bannerHeading{
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #05C3BB;
+  text-align: center;
+  line-height: normal;
+  margin: 45px 45px;
+}
+
+.bannerSubHeading{
+color: #2E2E2E;
+font-family: "Inter", sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: inherit;
+text-align: center;
+position: inherit;
+margin-bottom: 50px;
+}
+
+.myHeading{
+color: #FFF;
+font-family: "Inter", sans-serif;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+vertical-align: middle;
+margin-top: 25%;
+margin-left: 45px;
+}
+
+.faqsBody{
+  background-color: #ffffff;
+  /* margin-top: 50px; */
+  margin-bottom: 50px;
+ 
+}
+
+.accordion-button{
+  background-color: #05C3BB;
+}
+
+.myFooter{
+  background-color: #2e2e2e;
+  height: 100px;
+  flex-shrink: 0;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.myFooter a{
+  color: #ffffff;
+}
+
+.fab-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  user-select: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.fab-container:hover {
+  height: 100%;
+}
+.fab-container:hover .sub-button:nth-child(2) {
+  transform: translateY(-80px);
+}
+.fab-container:hover .sub-button:nth-child(3) {
+  transform: translateY(-140px);
+}
+.fab-container:hover .sub-button:nth-child(4) {
+  transform: translateY(-200px);
+}
+.fab-container:hover .sub-button:nth-child(5) {
+  transform: translateY(-260px);
+}
+.fab-container:hover .sub-button:nth-child(6) {
+  transform: translateY(-320px);
+}
+.fab-container .fab {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  background-color: #4ba2ff;
+  border-radius: 50%;
+  z-index: 2;
+}
+.fab-container .fab::before {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  background-color: inherit;
+  border-radius: 0 0 10px 0;
+  z-index: -1;
+}
+.fab-container .fab .fab-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.fab-container .fab .fab-content .material-icons {
+  color: white;
+  font-size: 48px;
+}
+.fab-container .sub-button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 10px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: #4ba2ff;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.fab-container .sub-button:hover {
+  cursor: pointer;
+}
+.fab-container .sub-button .material-icons {
+  color: white;
+  padding-top: 6px;
+}
+
+
+
