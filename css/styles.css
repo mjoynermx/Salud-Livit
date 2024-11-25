@@ -80,7 +80,7 @@ body{
 
 .bannerHeading{
   font-family: "Inter", sans-serif;
-  font-size: clamp(25px, 7vw, 50px);
+  font-size: clamp(30px, 7vw, 50px);
   font-weight: 700;
   color: #05C3BB;
   text-align: center;
