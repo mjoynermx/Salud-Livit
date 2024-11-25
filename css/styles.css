@@ -103,7 +103,7 @@ margin-bottom: 50px;
 .myHeading{
 color: #FFF;
 font-family: "Inter", sans-serif;
-font-size: 65px;
+font-size: clamp (20px, 8vw, 65px);
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -215,15 +215,6 @@ margin-left: 45px;
   padding-top: 6px;
 }
 
-@media (min-width: 576px){
-  .myHeading{
-    font-size: 25px;
-  }
-}
 
-@media (min-width: 992px){
-  .myHeading{
-    font-size: 25px;
-  }
-}
+
 
