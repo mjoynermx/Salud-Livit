@@ -80,7 +80,7 @@ body{
 
 .bannerHeading{
   font-family: "Inter", sans-serif;
-  font-size: clamp(30px, 7vw, 50px);
+  font-size: clamp(40px, 7vw, 50px);
   font-weight: 700;
   color: #05C3BB;
   text-align: center;
@@ -91,7 +91,7 @@ body{
 .bannerSubHeading{
 color: #2E2E2E;
 font-family: "Inter", sans-serif;
-font-size: 24px;
+font-size: clamp( 18px, 7vw, 24px);
 font-style: normal;
 font-weight: 600;
 line-height: inherit;
